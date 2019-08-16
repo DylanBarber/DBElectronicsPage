@@ -1,0 +1,74 @@
+.homeText {
+  margin-bottom: 220px;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+.dropdownButton {
+  background-color: #4285f4;
+  margin-top: 20px;
+  color: white;
+}
+.formErrorsFoundWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(215, 44, 44, 0.5);
+  margin-top: 30px;
+}
+.formSubmittedDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 255, 0, 0.5);
+  margin-top: 30px;
+}
+.formSubmittedDiv p {
+  margin-top: 10px;
+}
+.contactFormDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 1025px){
+  .card {
+    max-height: 515px;
+    max-width: 350px;
+    min-height: 515px;
+    min-width: 350px;
+  }
+}
+@media (max-width: 1025px) {
+  .card {
+    max-height: 515px;
+    max-width: 300px;
+    min-height: 515px;
+    min-width: 300px;
+  }
+}
+@media (max-width: 768px){
+  .card {
+    max-height: 515px;
+    max-width: 225px;
+    min-height: 515px;
+    min-width: 225px;
+  }
+}
+@media (max-width: 420px){
+  .card {
+    max-height: 600px;
+    max-width: 380px;
+    min-height: 600px;
+    min-width: 380px;
+
+  }
+}
+
+.card-body {
+  padding: 1.5rem;
+}
